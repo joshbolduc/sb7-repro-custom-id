@@ -10,6 +10,7 @@ const meta = {
   argTypes: {
     backgroundColor: { control: 'color' },
   },
+  id: 'overridden-id-csf',
 } satisfies Meta<typeof Button>;
 
 export default meta;
