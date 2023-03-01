@@ -1,0 +1,10 @@
+import { Meta, Story } from '@storybook/blocks';
+import { Button } from './Button';
+
+export const Template = (args) => <Button {...args} />
+
+<Meta title="Example/Button (MDX)" id="overridden-id-mdx-stories" />
+
+<Story name="Primary" args={{ primary: true, label: 'Button' }}>
+  {Template.bind({})}
+</Story>
